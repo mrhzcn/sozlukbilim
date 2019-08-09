@@ -9,4 +9,4 @@ In order to have machine-readable dictionaries, we need to encode that dictionar
 During the LexMC 2017, I tried to encode the Turkish dictionary in TEI and you can read about my results here in [this post][post_link].
 
 [TEI_guideline]: https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html
-[post-link]:   https://digilex.hypotheses.org/275#more-275
+[post_link]:   https://digilex.hypotheses.org/275#more-275
