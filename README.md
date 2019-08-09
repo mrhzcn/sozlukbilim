@@ -1,0 +1,2 @@
+# sozlukbilim
+ Sözlükbilim
