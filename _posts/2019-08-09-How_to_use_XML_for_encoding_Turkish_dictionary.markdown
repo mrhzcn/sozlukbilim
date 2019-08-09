@@ -6,7 +6,7 @@ categories: Turkish XML encoding
 ---
 In order to have machine-readable dictionaries, we need to encode that dictionary in such a format or machine to read. XML is seems to be the best way to build this bridge between dictionaries and machines. TEI also come in handy in this respect, as there is a whole chapter for "Dictionaries" in the [TEI guideline][TEI_guideline].
 
-During the LexMC 2017, I tried to encode the Turkish dictionary in TEI and you can read about my results here in [this post][post_link_].
+During the LexMC 2017, I tried to encode the Turkish dictionary in TEI and you can read about my results here in [this post][post_link].
 
 [TEI_guideline]: https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html
 [post-link]:   https://digilex.hypotheses.org/275#more-275
