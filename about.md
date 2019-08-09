@@ -1,0 +1,7 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+Sözlükbilim means "lexicography" in Turkish and this site aims to put together things realted to Turkish lexicography.
