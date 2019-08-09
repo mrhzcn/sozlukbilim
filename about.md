@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Sözlükbilim means "lexicography" in Turkish and this site aims to put together things realted to Turkish lexicography.
+Sözlükbilim means "lexicography" in Turkish and this site aims to put together things related to Turkish lexicography.
