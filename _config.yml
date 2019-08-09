@@ -16,7 +16,7 @@
 title: Sözlükbilim
 email: emrah@sozlukbilim.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sözlükbilim means lexicography in Turkish and this site aims to put together things realted to Turkish lexicography.
+  Sözlükbilim means lexicography in Turkish and this site aims to put together things related to Turkish lexicography.
 baseurl: "sozlukbilim" # the subpath of your site, e.g. /blog
 url: "https://mrhzcn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mrhzcn
