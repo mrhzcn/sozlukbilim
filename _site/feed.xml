@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/sozlukbilim/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/sozlukbilim/" rel="alternate" type="text/html" /><updated>2019-08-17T22:48:01+03:00</updated><id>http://localhost:4000/sozlukbilim/feed.xml</id><title type="html">Sözlükbilim (Lexicography)</title><subtitle>This site aims to put together all things related to lexicography, linguistics and Turkish.</subtitle><entry><title type="html">How to use TEI for encoding Turkish dictionary</title><link href="http://localhost:4000/sozlukbilim/tei/turkish/2019/08/17/How_to_use_TEI_for_encoding_Turkish_dictionary.html" rel="alternate" type="text/html" title="How to use TEI for encoding Turkish dictionary" /><published>2019-08-17T19:09:21+03:00</published><updated>2019-08-17T19:09:21+03:00</updated><id>http://localhost:4000/sozlukbilim/tei/turkish/2019/08/17/How_to_use_TEI_for_encoding_Turkish_dictionary</id><content type="html" xml:base="http://localhost:4000/sozlukbilim/tei/turkish/2019/08/17/How_to_use_TEI_for_encoding_Turkish_dictionary.html">&lt;p&gt;In order to have machine-readable dictionaries, we need to encode that dictionary in such a format or machine to read. XML is seems to be the best way to build this bridge between dictionaries and machines. TEI also come in handy in this respect, as there is a whole chapter for “Dictionaries” in the &lt;a href=&quot;https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html&quot; target=&quot;_blank&quot;&gt;TEI guideline&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;During the LexMC 2017, I tried to encode the Turkish dictionary in TEI and you can read about my results here in &lt;a href=&quot;https://digilex.hypotheses.org/275#more-275&quot; target=&quot;_blank&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An example encoding in TEI can be seen in the following example for the lemma &lt;strong&gt;ve (and)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&lt;span class=&quot;nt&quot;&gt;&amp;lt;entry&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lemma&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;ve&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;sense&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;n=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ve (I)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;sense&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;def&amp;gt;&lt;/span&gt;Türk alfabesinin yirmi yedinci harfinin adı, okunuşu.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/def&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sense&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sense&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;sense&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;n=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ve (II)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;gramGrp&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;pos&amp;gt;&lt;/span&gt;bağlaç&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pos&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;/gramGrp&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;sense&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;def&amp;gt;&lt;/span&gt;İki kelime veya iki cümle arasına girerek aralarında bir bağ olduğunu anlatan
+                     bir söz&lt;span class=&quot;nt&quot;&gt;&amp;lt;/def&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;cit&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;example&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;quote&amp;gt;&lt;/span&gt;
+                        &lt;span class=&quot;nt&quot;&gt;&amp;lt;bibl&amp;gt;&lt;/span&gt; Galiba bir vehme kapılıyorum ve galiba bir hastalık beynimi
+                           kemiriyor. &lt;span class=&quot;nt&quot;&gt;&amp;lt;author&amp;gt;&lt;/span&gt;A. Gündüz&lt;span class=&quot;nt&quot;&gt;&amp;lt;/author&amp;gt;&lt;/span&gt;
+                        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/bibl&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/quote&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/cit&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sense&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;re&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collocation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;ve benzerleri&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;ve devamı&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;vesair&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;vesaire&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;veya&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&amp;gt;&lt;/span&gt;
+                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;orth&amp;gt;&lt;/span&gt;veyahut&lt;span class=&quot;nt&quot;&gt;&amp;lt;/orth&amp;gt;&lt;/span&gt;
+                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+               &lt;span class=&quot;nt&quot;&gt;&amp;lt;/re&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/sense&amp;gt;&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/entry&amp;gt;&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;&amp;lt;entry&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Last updated&lt;/em&gt;: 2019-08-17 22:48:01 +0300&lt;/p&gt;</content><author><name></name></author><summary type="html">In order to have machine-readable dictionaries, we need to encode that dictionary in such a format or machine to read. XML is seems to be the best way to build this bridge between dictionaries and machines. TEI also come in handy in this respect, as there is a whole chapter for “Dictionaries” in the TEI guideline.</summary></entry></feed>
