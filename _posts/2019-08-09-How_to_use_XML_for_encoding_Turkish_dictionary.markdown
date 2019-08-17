@@ -8,9 +8,7 @@ In order to have machine-readable dictionaries, we need to encode that dictionar
 
 During the LexMC 2017, I tried to encode the Turkish dictionary in TEI and you can read about my results here in [this post][post_link]{: target="_blank"}.
 
-An example of this encoding can be seen in the following example.
-
-**ve (and)**
+An example encoding in TEI can be seen in the following example for the lemma **ve (and)**.
 
 ~~~xml
 	<entry>
