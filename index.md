@@ -4,7 +4,8 @@
 
 layout: home
 ---
-This site aims to put together all things related to lexicography, linguistics and Turkish lexicography to be more specific.
+This site aims to put whatever related to lexicography, linguistics and Turkish lexicography in one place... But as you can see there is nothing here yet. :(
+
 ![dict-logo]
 
 
