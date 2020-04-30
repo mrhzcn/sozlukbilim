@@ -4,3 +4,6 @@
 
 layout: home
 ---
+![dict-logo]
+
+[dict-logo]: ../pics/dictionary_168552845_250.jpg "Dictionary"
